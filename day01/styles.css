@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: Montserra, sans-serif;
+}
+.container {
+  height: 100vh;
+  background: url("./assets/concert.jpg") no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mask {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 25, 0.1);
+}
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.content div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 25px 10px 25px;
+  border-radius: 4px;
+
+  margin: 25px;
+}
+
+.key {
+  transition: all 0.07s;
+  border: 4px solid #000;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 5px black;
+}
+.content div span {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.content div small {
+  margin-top: 10px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 10px #ffc600;
+}
