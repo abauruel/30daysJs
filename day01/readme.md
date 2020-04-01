@@ -33,7 +33,7 @@
 <br>
 
 <p align="center">
-  <img alt="Frontend" src="" width="50%">
+  <img alt="Frontend" src="../.github/assets/MockupScreen.png" width="50%" radius="40">
 </p>
 
 ## :computer: Technologies
