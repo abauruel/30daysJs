@@ -21,7 +21,6 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 
-
 <p align="center">
   <a href="#computer-technologies">Technologies used</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#bulb-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -48,10 +47,9 @@ This project uses these technologies:
 
 The project consists of controlling instrument sounds using the keyboard, applying CSS3 and Javascript concepts
 
-
 ## 👨‍💻 How can I run it?
 
-Soon...
+just run index.html using web browser
 
 ## 🤔 How can I help?
 
